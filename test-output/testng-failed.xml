@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SwagLabs Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Ordered Tests(failed)">
+    <classes>
+      <class name="SwagLabs.CartPageTest">
+        <methods>
+          <include name="cart"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- SwagLabs.CartPageTest -->
+      <class name="SwagLabs.InformationPageTest">
+        <methods>
+          <include name="InfPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- SwagLabs.InformationPageTest -->
+      <class name="SwagLabs.AddToCartPageTest">
+        <methods>
+          <include name="AddToCart"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- SwagLabs.AddToCartPageTest -->
+      <class name="SwagLabs.CompletePageTest">
+        <methods>
+          <include name="Complete"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- SwagLabs.CompletePageTest -->
+      <class name="SwagLabs.LoginPageTest">
+        <methods>
+          <include name="LoginPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- SwagLabs.LoginPageTest -->
+      <class name="SwagLabs.PaymentPageTest">
+        <methods>
+          <include name="Payment"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- SwagLabs.PaymentPageTest -->
+    </classes>
+  </test> <!-- Ordered Tests(failed) -->
+</suite> <!-- Failed suite [SwagLabs Test Suite] -->
